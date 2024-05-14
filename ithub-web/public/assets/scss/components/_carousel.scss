@@ -1,0 +1,40 @@
+@use '../utils' as *;
+
+.swiper-slide-active .blog-grid-slider-meta {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+}
+
+.swiper-slide-active .blog-grid-slider-title {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.swiper-slide-active .blog-grid-slider-title-box p {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+}
+.swiper-slide-active .blog-grid-avata-box {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+}
+
+.swiper-slide-active .blog-grid-slider-meta,
+.swiper-slide-active .blog-grid-slider-title,
+.swiper-slide-active .blog-grid-slider-title-box p,
+.swiper-slide-active .blog-grid-avata-box {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+

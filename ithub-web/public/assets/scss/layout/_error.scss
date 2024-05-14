@@ -1,0 +1,66 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  11. ERROR CSS START
+/*----------------------------------------*/
+
+.tp-error{
+    &-ptb {
+        padding-top: 200px;
+        padding-bottom: 170px;
+    }
+    &-content-box{
+        position: relative;
+        & span{
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-left-shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+.tp-error-header{
+    border-bottom: 1px solid #F2F2F2;
+    & .header-bottom__main-menu-4{
+        & nav{
+            & ul{
+                & li{
+                    &::after{
+                        background: linear-gradient(180deg, rgba(32, 33, 36, 0) 0%, rgba(32, 33, 36, 0.03) 100%);
+                        filter: drop-shadow(0px 2px 0px #FFC530);
+                    }
+                    &::before{
+                        background-color: #FFC530;
+                    }
+                    & a{
+                        color: var(--tp-common-black);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.error-title-sm{
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: -0.02em;
+    color: #202124;
+    padding-bottom: 10px;
+}
+
+.tp-error-text-box{
+    & p{
+        padding-bottom: 20px;
+    }
+}
+
+.form_error{
+    color: red;
+}

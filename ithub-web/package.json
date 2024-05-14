@@ -1,5 +1,5 @@
 {
-  "name": "ithub-web",
+  "name": "softec-nextjs-update",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "next": "14.1.3",
     "react": "^18",
+    "react-countup": "^6.5.0",
     "react-dom": "^18",
-    "next": "14.2.3"
-  },
-  "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "react-hook-form": "^7.51.0",
+    "react-intersection-observer": "^9.8.1",
+    "react-modal-video": "^2.0.1",
+    "react-slick": "^0.30.2",
+    "react-use": "^17.5.0",
+    "sass": "^1.71.1",
+    "slick-carousel": "^1.8.1",
+    "split-text": "^1.0.0",
+    "swiper": "^11.0.7",
+    "wowjs": "^1.1.3",
+    "yup": "^1.4.0"
   }
 }

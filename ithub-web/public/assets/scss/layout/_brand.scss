@@ -1,0 +1,175 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  06. BRAND CSS START
+/*----------------------------------------*/
+
+.tp-barnd-title-sm{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--tp-common-white);
+    @media #{$lg}{
+        font-size: 19px;
+        line-height: 28px;
+    }
+    @media #{$xs}{
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+.tp-barnd-icon{
+    margin-right: 20px;
+}
+.tp-brand-item {
+	text-align: center;
+    padding: 0px 5px;
+}
+.tp-barnd-slider-active{
+    & .slick-slide img {
+        display: inline-block;
+        width: 100%;
+    }
+}
+.tp-barnd-slider-wrapper{
+    padding: 0px 65px;
+    @media #{$xl,$md,$xs}{
+        padding: 0px 80px;
+    }
+}
+.tp-barnd-left-item {
+    @media #{$md}{
+        margin-bottom: 25px;
+    }
+}
+
+.tp-barnd-slider-active{
+    & button{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: 1px solid var(--tp-common-white);
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--tp-common-white);
+        text-align: center;
+        line-height: 56px;
+        position: relative;
+        transition: .3s;
+        @media #{$xs}{
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+        }
+        &::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: var(--tp-common-white);
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+            z-index: 3;
+            transform: scale(.2);
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s;
+        }
+        &.slick-prev {
+            position: absolute;
+            left: -75px;
+            & i{
+                position: relative;
+                z-index: 5;
+                margin-left: -3px;
+            }
+        }
+        &.slick-next {
+            position: absolute;
+            right: -75px;
+            top: 0;
+            & i{
+                position: relative;
+                z-index: 5;
+                margin-right: -3px;
+            }
+        }
+        &:hover{
+            color: var(--tp-common-black);
+            &::after{
+                opacity: 1;
+                visibility: visible;
+                transform: scale(.8);
+            }
+        }
+    }
+}
+.tp-barnd-main-wrapper{
+    padding: 25px 0;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #2329C1;
+        transform: scale(1) perspective(300px) rotateX(-5deg);
+        border-radius: 14px;
+        z-index: -1;
+    }
+}
+
+.tp-barnd-shape-1{
+    position: absolute;
+    top: 0%;
+    left: -1%;
+}
+.tp-barnd-shape-2{
+    position: absolute;
+    top: 0%;
+    right: -1%;
+}
+.tp-barnd-plr{
+    padding: 0px 300px;
+    @media #{$xxxl}{
+        padding: 0px 180px;
+    }
+    @media #{$xxl}{
+        padding: 0px 70px;
+    }
+    @media #{$xl}{
+        padding: 0px 50px;
+    }
+    @media #{$lg}{
+        padding: 0px 15px;
+    }
+    @media #{$md}{
+        padding: 0px 30px;
+    }
+    @media #{$xs}{
+        padding: 0px 15px;
+    }
+}
+.tp-barnd-left-item {
+    @media #{$xs}{
+        margin-bottom: 10px;
+    }
+}
+
+.tp-brand-title-5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.barnd-slider-active-five{
+    & .slick-slide{
+        text-align: center;
+    }
+    & .slick-slide img {
+        display: inline-block;
+    }
+}

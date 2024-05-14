@@ -1,0 +1,121 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  04. ACCOUNT CSS START
+/*----------------------------------------*/
+
+.tp-account{
+    &-main-img{
+        position: absolute;
+        top: -70px;
+        left: 61px;
+        @media #{$lg}{
+            top: -2px;
+            left: 19px;
+        }
+        @media #{$md}{
+            left: 124px;
+        }
+        @media #{$xs}{
+            top: -8px;
+            left: 9px;
+        }
+        @media #{$sm}{
+            top: -66px;
+            left: 23px;
+        }
+    }
+    &-section-box{
+        @media #{$md}{
+            margin-top: 70px;
+        }  
+    }
+    &-author{
+        position: absolute;
+        bottom: -6px;
+        right: 32%;
+        @media #{$xs}{
+            bottom: -3px;
+            right: 14%;
+        }
+        @media #{$sm}{
+            bottom: -3px;
+            right: 31%;
+        }
+    }
+    &-shape-1{
+        position: absolute;
+        top: -14px;
+        left: -2%;
+        animation: tpupdown 0.8s infinite alternate;
+    }
+    &-shape-2{
+        position: absolute;
+        bottom: -6px;
+        right: 2%;
+        animation: moving 9s linear infinite;
+    }
+    &-step-wrapper{
+        padding-left: 40px;
+        padding-right: 60px;
+        @media #{$lg}{
+            padding-right: 0;
+        }
+        @media #{$xs}{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    &-item{
+        padding-bottom: 29px;
+        margin-bottom: 27px;
+        border-bottom: 1px solid var(--tp-border-1);
+        &:last-child{
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        & span{
+            font-weight: 500;
+            font-size: 30px;
+            color: var(--tp-common-black);
+            margin-right: 35px;
+            min-width: 40px;
+            @media #{$xs}{
+                margin-right: 20px;
+            }
+        }
+        & p{
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            font-family: var(--tp-ff-mont);
+            color: var(--tp-common-black);
+            @media #{$xl}{
+                font-size: 19px;
+            }
+            @media #{$lg}{
+                font-size: 18px;
+                & br{
+                    display: none;
+                }
+            }
+            @media #{$xs}{
+                font-size: 17px;
+                line-height: 23px;
+                & br{
+                    display: none;
+                }
+            }
+        }
+    }
+    &-btn-box{
+        & p{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 12px;
+            color: var(--tp-grey-5);
+        }
+    }
+}

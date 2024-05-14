@@ -1,0 +1,15 @@
+
+// font url
+
+$font-url: 'https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat+Alternates:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap';
+// font family
+$font-family: (
+    'ff': (
+        'body': "'Plus Jakarta Sans', sans-serif",
+        'heading': "'Plus Jakarta Sans', sans-serif",
+        'fontawesome':"Font Awesome 5 Pro",
+        'mont':"'Montserrat Alternates', sans-serif",
+        'urban':"'Urbanist', sans-serif",
+        'dm':"'DM Serif Display', serif",
+    )
+);

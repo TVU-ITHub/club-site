@@ -1,0 +1,278 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  13. FEATURE CSS START
+/*----------------------------------------*/
+
+
+
+.tp-feature{
+    &__bottom-shape{
+        position: absolute;
+        left: 0;
+        bottom: -125px;
+        z-index: -1;
+        width: 100%;
+        @media #{$xl}{
+            bottom: -15px;
+        }
+        @media #{$lg}{
+            bottom: 22px;
+        }
+        @media #{$md}{
+            bottom: 75px;
+        }
+        @media #{$xs}{
+            bottom: 90px;
+        }
+        & img{
+            width: 100%;
+        } 
+    }
+    &__pt-pb{
+        @media #{$xs}{
+            padding-top: 80px;
+        } 
+    }
+    &__item{
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(18, 20, 32, 0.2);
+        border-radius: 30px;
+        padding: 50px 40px;
+        transition: .3s;
+        &:hover{
+            box-shadow: 0px 20px 30px rgba(1, 6, 20, 0.1);
+            border-radius: 30px;
+            & .tp-feature__icon{
+                & img{
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+    &__icon{
+        margin-bottom: 35px;
+        & img{
+            transition: transform .5s ease;
+        }
+    }
+    &__title-sm{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.3;
+        padding-bottom: 20px;
+        @media #{$lg}{
+            font-size: 20px;
+        }
+        @media #{$xs}{
+            font-size: 21px;
+        } 
+    }
+    &__link{
+        display: inline-block;
+        &:hover{
+            & a{
+                box-shadow: inset 0 0 0 30px #6865FF;
+                & svg{
+                    color: var(--tp-common-white);
+                }
+            }
+        }
+        & a{
+            height: 44px;
+            width: 44px;
+            line-height: 41px;
+            border-radius: 50%;
+            background: rgba(41, 93, 251, 0.1);
+            display: inline-block;
+            text-align: center;
+            transition: .4s;
+            & svg{
+                transition: .4s;
+                color: var(--tp-theme-1);
+            }
+        }
+    }
+}
+
+
+.tp-feature-five{
+    &-section-box{
+        & p{
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px;
+            color: #5F6168;
+            @media #{$xs}{
+                & br{
+                    display: none;
+                }
+            }
+            & span{
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 26px;
+                color: #141125;
+            } 
+        }
+    }
+    &-wrapper-main{
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    &-wrapper{
+        transition: .3s;
+        &:hover{
+            box-shadow: 0px 30px 60px rgba(32, 33, 36, 0.2);
+            border-radius: 16px;
+            position: relative;
+            z-index: 9;
+        }
+    }
+    &-item{
+        box-shadow: 0px 1px 2px rgba(32, 33, 36, 0.1);
+        border-radius: 16px 0px 0px 16px;
+        padding: 40px;
+        background-color: var(--tp-common-white);
+        overflow: hidden;
+        transition: .3s;
+    }
+    &-icon{
+        height: 85px;
+        width: 85px;
+        line-height: 85px;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    &-title-sm{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #141125;
+        padding-bottom: 5px;
+    }
+    &-content{
+        & p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            color: #5F6168;
+            padding-bottom: 15px; 
+        }
+    }
+    &-shape-color{
+        height: 100%;
+        width: 100%;
+        background-color: #FF7A59;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transition: .3s;
+        z-index: -1;
+        &-2{
+            background: #FFE01B;
+        }
+        &-3{
+            background: #AAE0F4;
+        }
+        &-4{
+            background: #03363D;
+        }
+    }
+    &-item-1{
+        @media #{$lg,$md}{
+            border-radius: 16px 0px 0px 0px;
+        }
+        &:hover{
+            position: relative;
+            z-index: 5;
+            transform: scale(1.1);
+            border-radius: 16px;
+            box-shadow: none;
+            & .tp-feature-five-shape-color{
+                transform: scale(3.7);
+                top: -125%;
+            }
+        }  
+    }
+    &-item-2{
+        border-radius: 0; 
+        @media #{$lg,$md}{
+            border-radius: 0px 16px 16px 0px;
+        }
+        &:hover{
+            position: relative;
+            z-index: 5;
+            transform: scale(1.1);
+            border-radius: 16px;
+            box-shadow: none;
+            & .tp-feature-five-shape-color{
+                transform: scale(3.5);
+                top: -105%;
+            }
+        }   
+    }
+    &-item-3{
+        border-radius: 0; 
+        @media #{$lg,$md}{
+            border-radius: 0px 0px 0px 16px;
+        }
+        &:hover{
+            position: relative;
+            z-index: 5;
+            transform: scale(1.1);
+            border-radius: 16px;
+            box-shadow: none;
+            & .tp-feature-five-shape-color{
+                transform: scale(3.5);
+                top: -105%;
+            }
+        }   
+    }
+    &-item-4{
+        border-radius: 0px 16px 16px 0px;
+        @media #{$lg,$md}{
+            border-radius: 0px 0px 16px 0px;
+        } 
+        &:hover{
+            position: relative;
+            z-index: 5;
+            transform: scale(1.1);
+            border-radius: 16px;
+            box-shadow: none;
+            & .tp-feature-five-shape-color{
+                transform: scale(3.5);
+                top: -105%;
+            }
+        }   
+    }
+    &-link{
+        & span{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;
+            text-align: center;
+            color: var(--tp-common-black);
+            @media #{$xs}{
+                font-size: 20px;
+                line-height: 24px;
+            }
+            & a{
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 24px;
+                color: #6B14FA;
+                text-decoration: underline;
+                @media #{$xs}{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

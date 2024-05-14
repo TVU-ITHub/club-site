@@ -1,0 +1,62 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  12. FAQ CSS START
+/*----------------------------------------*/
+
+.tp-faq{
+    &-img{
+        position: absolute;
+        bottom: -52%;
+        left: 33%;
+        z-index: 2;
+        @media #{$md}{
+            bottom: 4%;
+            left: 54%;
+        } 
+        @media #{$xs}{
+            display: none;
+        } 
+    }
+    &-border-shape{
+        position: absolute;
+        bottom: 9%;
+        left: -21%; 
+    }
+    &-left-wrapper{
+        padding-right: 80px;
+        @media #{$md}{
+            padding-right: 0;
+            padding-bottom: 100px;
+        } 
+        @media #{$xs}{
+            padding-right: 0;
+            margin-bottom: 40px;
+        } 
+    }
+    &-section-box{
+        & p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            font-family: var(--tp-ff-mont);
+            @media #{$lg}{
+                & br{
+                    display: none;
+                }
+            }
+            @media #{$xs}{
+                font-size: 16px;
+                & br{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.tp-inner-faq-box{
+    & .tp-section-subtitle-2{
+        border-bottom: 0;
+    }
+}

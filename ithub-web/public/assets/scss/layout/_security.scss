@@ -1,0 +1,95 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  22. SECURITY CSS START
+/*----------------------------------------*/
+
+.tp-security{
+    &-slider-wrapper{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: -50px;
+            width: 1320px;
+            height: 230px;
+            margin: 0 auto;
+            border-radius: 30px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: -1;
+            overflow: hidden;
+            @media #{$xl}{
+                width: 1000px;
+            }
+            @media #{$lg}{
+                width: 900px;
+                height: 200px;
+            }
+            @media #{$xs}{
+                display: none;
+            }
+        }
+    }
+    &-wrapper{
+        background: #3137D2;
+        box-shadow: -3px 0px 0px #F8FF35;
+        border-radius: 100px;
+        padding: 25px 40px;
+        min-width: 355px;
+        height: 110px;
+        transition: .3s;
+        &:hover{
+            background-color: var(--tp-common-yellow-3);
+            & .tp-security-title-sm{
+                color: var(--tp-common-blue-2);
+            }
+            & .tp-security-link{
+                & a{
+                    & svg{
+                        color: var(--tp-common-blue-2);
+                    }
+                }
+            }
+        }
+    }
+    &-title-sm{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        color: var(--tp-common-white);
+        margin-bottom: 0;
+        transition: .3s;
+    }
+    &-img{
+        margin-right: 20px;
+        width: 70px; 
+    }
+    &-link{
+        & a{
+            & svg{
+                color: var(--tp-common-white);
+                transition: .3s;
+            }
+        }
+    }
+}
+.tp-security-main {
+	padding: 0px 10px;
+}
+.tp-security-slider-active{
+    margin: 0px -50px;
+    @media #{$xs}{
+        margin: 0;
+    }
+}
+
+.tp-security-slider{
+    &__shape-1{
+        position: absolute;
+        top: -45%;
+        left: 14%;
+    }
+}

@@ -1,0 +1,133 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  26. VIDEO CSS START
+/*----------------------------------------*/
+
+.tp-vedio-wrap {
+    text-align: center;
+    margin: 0 auto;
+    cursor: none;
+    & video {
+        height: 600px;
+        width: 1290px;
+        object-fit: cover;
+        border-radius: 30px;
+        cursor: none;
+        @media #{$xl}{
+            width: 1170px;
+        }
+        @media #{$lg}{
+            width: 960px;
+        }
+        @media #{$md}{
+            width: 735px;
+            height: 450px;
+        }
+        @media #{$xs}{
+            width: 300px;
+            height: 300px;
+        }
+        @media #{$sm}{
+            width: 545px;
+            height: 300px;
+        }
+    }
+}
+
+.cursor-outer {
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--tp-common-blue-4);
+    box-sizing: border-box;
+    z-index: 10000000;
+    opacity: 0.5;
+    transition: all 0.08s ease-out;
+    cursor: none;
+}
+
+.mouseCursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translateZ(0);
+    visibility: hidden;
+    text-align: center;
+    cursor: none;
+}
+
+.cursor-inner {
+    margin-left: -3px;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    z-index: 10000001;
+    background-color: var(--tp-common-blue-4);
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    & a {
+        color: #fff;
+        line-height: 100px;
+        transform: scale(0);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 16px;
+        margin-left: 3px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    &.cursor-big {
+        cursor: none;
+        & a {
+            transform: scale(1);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.mouseCursor.cursor-big {
+    width: 100px;
+    height: 100px;
+    cursor: none;
+}
+
+.mouseCursor.cursor-big {
+    cursor: none;
+    &.cursor-outer {
+        display: none;
+    }
+}
+
+.tp-cursor-point-area {
+    cursor: none;
+}
+
+.tp-vedio-title{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: -0.02em; 
+    color: var(--tp-common-black);
+    @media #{$lg}{
+        font-size: 42px;
+    }
+    @media #{$md}{
+        font-size: 42px;
+    }
+    @media #{$xs}{
+        font-size: 38px;
+    }
+    
+}
+.tp-vedio-sction-box {
+    @media #{$xs}{
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,200 @@
+@use '../utils' as *;
+
+
+.body-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 24, 24, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.45s ease-in-out;
+    &.apply{
+        opacity: 1;
+        visibility: visible;
+    }
+    &:hover{
+        cursor: url(../../img/cross-out.png), pointer;
+    }
+}
+.tp-instagram{
+    & img{
+        width: 100%;
+    }
+}
+.tpoffcanvas {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 480px;
+    bottom: 0;
+    box-shadow: 0 16px -32px 0 rgba(0, 0, 0, .8);
+    background-color:var(--tp-common-black);
+    z-index: 9999;
+    padding: 50px;
+    scrollbar-width: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.45s ease-in-out;
+    overflow-y: scroll;
+    &.opened {
+        opacity: 1;
+        visibility: visible;
+    }
+    @media #{$xs,} {
+        width: 300px;
+        padding: 40px 35px;
+    }
+    @media #{$sm} {
+        width: 400px;
+        padding: 40px;
+    }
+    &.opened {
+      right: 0;
+      -webkit-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      -moz-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      transition-duration: .6s; 
+    }
+
+    &__logo {
+        margin-bottom: 40px;
+        @media #{$xs,$md} {
+            padding-top: 0;
+        }
+        & img {
+            width: 157px;
+            height: 100%;
+        }
+    }
+    &__instagram{
+        margin-bottom: 50px;
+        @media #{$xs} {
+            text-align: left;
+        }
+        & img{
+            width: 80px;
+            height: 80px;
+            margin: 0px 5px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__instagram-title{
+        & h4{
+            color: var(--tp-common-white);
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__close-btn {
+       & button{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        transition: 1s;
+        -webkit-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        -moz-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        transition-duration: .3s;
+        height: 50px;
+        width: 50px;
+        background-color: var(--tp-common-white);
+        color: var(--tp-common-black);
+        & i{
+            font-weight: 300;
+            font-size: 30px;
+        }
+        @media #{$md} {
+            font-size: 28px;
+        }
+        @media #{$xs} {
+            font-size: 28px;
+        }
+       }
+    }
+    &__content{
+        margin-bottom: 30px;
+        & p{
+            font-size: 16px;
+            color: #fff;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        & span{
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        & a{
+            font-size: 30px;
+            line-height: 51px;
+            font-weight: 700;
+            color: var(--tp-common-white);
+            display: inline-block;
+            @media #{$xs} {
+                font-size: 27px;
+            }
+        }
+    }
+    &__social{
+        & .social-icon{
+            & a{
+                height: 50px;
+                width: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 18px;
+                background-color: var(--tp-common-white);
+                color: var(--tp-theme-1);
+                margin-right: 15px;
+                transition: .3s;
+                display: inline-block;
+                border-radius: 10px;
+                @media #{$xs} {
+                    margin-right: 3px;
+                }
+                &:hover{
+                    background-color: var(--tp-theme-1);
+                    color: var(--tp-common-white);
+                }
+            }
+        }
+    }
+    &__info{
+        margin-bottom: 40px;
+        & .offcanva-title{
+            color: var(--tp-common-white);
+            padding-bottom: 5px;
+        }
+        & a{
+            color: #fff9;;
+            line-height: 1.2;
+        }
+    }
+}
+.mobile-menu.mean-container {
+	margin-bottom: 50px;
+}
+.offcan-social-title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.tpoffcanvas-social{
+    height: 100%;
+    display: flex;
+    flex-direction: column;      
+}
