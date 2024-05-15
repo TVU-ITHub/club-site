@@ -3,7 +3,7 @@ const menu_data = [
     id: 1,
     mega_menu: false,
     has_dropdown: true,
-    title: "Home",
+    title: "Trang chủ",
     link: "/",
     active: "active",
     sub_menus: [
@@ -18,7 +18,7 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: true,
-    title: "Pages",
+    title: "Giới thiệu",
     link: "/about",
     active: "",
     sub_menus: [
@@ -33,20 +33,20 @@ const menu_data = [
       { link: "/price", title: "Price" },
       { link: "/register", title: "Register" },
       { link: "/sign-in", title: "Signin" },
-      { link: "/404", title: "404" }, 
+      { link: "/404", title: "404" },
     ],
   },
-  
+
   {
     id: 3,
     mega_menu: false,
     has_dropdown: true,
-    title: "Projects",
+    title: "Thành viên",
     link: "/project",
     active: "",
     sub_menus: [
       { link: "/project", title: "Project" },
-      { link: "/project-details", title: "Project Details" }, 
+      { link: "/project-details", title: "Project Details" },
     ],
   },
 
@@ -54,7 +54,7 @@ const menu_data = [
     id: 4,
     mega_menu: false,
     has_dropdown: true,
-    title: "Blog",
+    title: "Sự kiện",
     link: "/blog",
     active: "",
     sub_menus: [
@@ -64,16 +64,14 @@ const menu_data = [
       { link: "/blog-details-2", title: "Blog Details 02" },
     ],
   },
-  
+
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "Contact",
+    title: "Liên hệ",
     link: "/contact",
     active: "",
   },
-  
-
 ];
 export default menu_data;
