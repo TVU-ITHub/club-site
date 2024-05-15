@@ -1,13 +1,14 @@
-import HeaderFive from "@/layout/headers/header-5";
+import FooterTwo from "@/layout/footers/footer-2";
+import HeaderFour from "@/layout/headers/header-4";
 import React from "react";
 
 const HomeMain = () => {
   return (
     <>
-      <HeaderFive />
+      <HeaderFour />
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <main className="fix"></main>
+          <main className="fix" style={{ minHeight: 1000 }}></main>
         </div>
       </div>
     </>
