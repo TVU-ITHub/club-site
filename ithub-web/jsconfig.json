@@ -4,9 +4,9 @@
       "@/*": ["./src/*"],
       "@/assets/*": ["./public/assets/*"],
       "@/components/*": ["./src/components/*"],
-      "@/layouts/*": ["./src/layouts/*"], 
+      "@/layouts/*": ["./src/layouts/*"],
       "@/data/*": ["./src/data/*"],
-      "@/hooks/*": ["/hooks/*"],  
+      "@/hooks/*": ["/hooks/*"]
     }
   }
 }

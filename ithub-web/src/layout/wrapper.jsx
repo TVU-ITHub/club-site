@@ -5,7 +5,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 // internal
 import ScrollToTop from "@/hooks/scroll-to-top";
-import { animationCreate } from "../../utils/utils"; 
+import { animationCreate } from "../../utils/utils";
 
 const Wrapper = ({ children }) => {
   useEffect(() => {
