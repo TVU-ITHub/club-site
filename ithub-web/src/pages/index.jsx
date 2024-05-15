@@ -1,16 +1,13 @@
-
-'use client';
-
 import React from "react";
-import SEO from "../common/seo";
-import HomeOne from "../components/homes/home";
-import Wrapper from "../layout/wrapper";
+import SEO from "@/common/seo";
+import Wrapper from "@/layout/wrapper";
+import HomeMain from "@/components/homes/home-main";
 
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
-      <HomeOne />
+      <SEO pageTitle={"Trang chủ"} />
+      <HomeMain />
     </Wrapper>
   );
 };
