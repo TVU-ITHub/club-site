@@ -10,12 +10,12 @@ import Brand from "./brand";
 import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
- 
+
 const About = () => {
   return (
     <>
       <HeaderSix />
-      <Breadcrumb title_top="About"  title_bottom="Softec" />
+      <Breadcrumb title_top="About" title_bottom="Softec" />
       <HeroBanner title="About" subtitle="Softec" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
       <Brand />
       <CompanyArea />
