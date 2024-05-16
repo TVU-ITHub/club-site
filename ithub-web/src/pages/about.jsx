@@ -1,17 +1,18 @@
 import React from "react";
 import SEO from "@/common/seo";
-import HomeMain from "@/components/homes/home-main";
+import About from "@/components/about";
 import Wrapper from "@/layout/wrapper";
+import Link from "next/link";
 import HeaderFour from "@/layout/headers/header-4";
 
-const Home = () => {
+const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Trang chủ"} />
+      <SEO pageTitle={"Softec - Data analytics"} />
       <HeaderFour />
-      <HomeMain />
+      <About />
     </Wrapper>
   );
 };
 
-export default Home;
+export default index;

@@ -1,3 +1,5 @@
+import HeaderFour from "@/layout/headers/header-4";
+import Wrapper from "@/layout/wrapper";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
