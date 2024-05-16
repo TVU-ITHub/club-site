@@ -1,5 +1,5 @@
 import React from "react";
-import HeroArea from "./hero-area";
+import HeroSlider from "../home/hero-slider";
 
 const HomeMain = () => {
   return (
@@ -7,7 +7,7 @@ const HomeMain = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main className="fix" style={{ minHeight: 1000 }}>
-            <HeroArea />
+            <HeroSlider />
           </main>
         </div>
       </div>
