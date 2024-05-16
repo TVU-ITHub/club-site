@@ -1,17 +1,17 @@
-import useSticky from "@/hooks/use-sticky";
 import Offcanvus from "@/common/offcanvus";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import NavMenu from "./nav-menu";
 import Image from "next/image";
 
 import logo from "@/app-assets/img/logo/ithub-logo2.svg";
 import white_logo from "../../../public/assets/img/logo/logo-white.png";
 import black_logo from "../../../public/assets/img/logo/logo-black.png";
+import useSticky from "../../../hooks/use-sticky";
 
 const HeaderFour = ({ style_error = true }) => {
-  const { sticky } = useSticky();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { sticky } = useSticky();
 
   return (
     <>
