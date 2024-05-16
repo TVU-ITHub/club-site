@@ -3,10 +3,11 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/assets/*": ["./public/assets/*"],
+      "@/app-assets/*": ["./public/app-assets/*"],
       "@/components/*": ["./src/components/*"],
-      "@/layouts/*": ["./src/layouts/*"], 
+      "@/layouts/*": ["./src/layouts/*"],
       "@/data/*": ["./src/data/*"],
-      "@/hooks/*": ["/hooks/*"],  
+      "@/hooks/*": ["/hooks/*"]
     }
   }
 }
