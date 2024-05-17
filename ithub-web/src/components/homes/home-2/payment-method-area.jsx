@@ -3,22 +3,22 @@ import Image from "next/image";
 
 // payment img import
 import logo from "@/app-assets/img/logo/tech/ithub.png";
-import payment_img_1 from "../../../../public/assets/img/payment-logo/logo-3.png";
-import payment_img_2 from "../../../../public/assets/img/payment-logo/logo-1.png";
-import payment_img_3 from "../../../../public/assets/img/payment-logo/logo-2.png";
-import payment_img_4 from "../../../../public/assets/img/payment-logo/logo-4.png";
-import payment_img_5 from "../../../../public/assets/img/payment-logo/logo-5.png";
-import payment_img_6 from "../../../../public/assets/img/payment-logo/logo-6.png";
-import payment_img_7 from "../../../../public/assets/img/payment-logo/logo-7.png";
-import payment_img_8 from "../../../../public/assets/img/payment-logo/logo-16.png";
-import payment_img_9 from "../../../../public/assets/img/payment-logo/logo-15.png";
-import payment_img_10 from "../../../../public/assets/img/payment-logo/logo-14.png";
-import payment_img_11 from "../../../../public/assets/img/payment-logo/logo-13.png";
-import payment_img_12 from "../../../../public/assets/img/payment-logo/logo-12.png";
-import payment_img_13 from "../../../../public/assets/img/payment-logo/logo-11.png";
-import payment_img_14 from "../../../../public/assets/img/payment-logo/logo-10.png";
-import payment_img_15 from "../../../../public/assets/img/payment-logo/logo-9.png";
-import payment_img_16 from "../../../../public/assets/img/payment-logo/logo-8.png";
+import payment_img_1 from "@/app-assets/img/logo/tech/js.png";
+import payment_img_2 from "@/app-assets/img/logo/tech/react.png";
+import payment_img_3 from "@/app-assets/img/logo/tech/springboot.png";
+import payment_img_4 from "@/app-assets/img/logo/tech/vscode.png";
+import payment_img_5 from "@/app-assets/img/logo/tech/css.png";
+import payment_img_15 from "@/app-assets/img/logo/tech/dotnet.png";
+import payment_img_7 from "@/app-assets/img/logo/tech/html.png";
+import payment_img_8 from "@/app-assets/img/logo/tech/docker.png";
+import payment_img_9 from "@/app-assets/img/logo/tech/node.png";
+import payment_img_10 from "@/app-assets/img/logo/tech/github.png";
+import payment_img_11 from "@/app-assets/img/logo/tech/mysql.png";
+import payment_img_12 from "@/app-assets/img/logo/tech/postman.png";
+import payment_img_13 from "@/app-assets/img/logo/tech/php.png";
+import payment_img_14 from "@/app-assets/img/logo/tech/ubuntu.png";
+import payment_img_6 from "@/app-assets/img/logo/tech/python.png";
+import payment_img_16 from "@/app-assets/img/logo/tech/figma.png";
 
 // payment_method data
 const payment_method = [

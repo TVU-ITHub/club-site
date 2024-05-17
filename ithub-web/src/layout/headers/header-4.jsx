@@ -19,9 +19,7 @@ const HeaderFour = ({ style_error = true, white_header = true }) => {
         <div
           id="header-sticky"
           className={`header-bottom__area ${
-            (style_error && !white_header) || sticky
-              ? "header-sticky-bg-2 tp-error-header z-index-5"
-              : "header-bottom__plr-4 z-index-3"
+            style_error ? "header-sticky-bg-2 tp-error-header z-index-5" : "header-blur header-bottom__plr-4 z-index-3"
           }  header-bottom__transparent ${sticky && "header-sticky"}`}
         >
           <div className="container">
