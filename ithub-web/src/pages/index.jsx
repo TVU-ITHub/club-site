@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Trang chủ"} />
-      <HeaderFour />
       <HomeMain />
     </Wrapper>
   );
