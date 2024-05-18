@@ -17,6 +17,7 @@ const HeaderFour = ({ style_error = true, white_header = true }) => {
     <>
       <header className={`${style_error ? "" : "tp-header-heightt"}`}>
         <div
+          style={{ background: "#fff" }}
           id="header-sticky"
           className={`header-bottom__area ${
             style_error ? "header-sticky-bg-2 tp-error-header z-index-5" : "header-blur header-bottom__plr-4 z-index-3"
