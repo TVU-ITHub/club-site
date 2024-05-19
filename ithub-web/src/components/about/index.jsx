@@ -24,7 +24,7 @@ const About = () => {
       <JourneyArea />
       <JobArea />
       <CtaArea />
-      <FooterFive style_contact={true} style_team={true} />
+      {/* <FooterFive style_contact={true} style_team={true} /> */}
     </>
   );
 };
