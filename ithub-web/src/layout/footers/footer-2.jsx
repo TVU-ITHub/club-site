@@ -9,6 +9,8 @@ import footer_logo from "@/app-assets/img/logo/ithub-logo2.png";
 import qr_code from "../../../public/assets/img/footer/dwnld-1.png";
 import i_phone from "../../../public/assets/img/footer/dwnld-2.png";
 import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
+import shape_img_1 from "@/assets/img/footer/footer-inner-1.png";
+import shape_img_2 from "@/assets/img/footer/footer-inner-2.png";
 
 const footer_content = {
   address: (
@@ -82,8 +84,16 @@ const FooterTwo = () => {
   return (
     <>
       <footer>
-        <div className="tp-footer__pl-pr grey-bg-2">
-          <div className="tp-footer__area pt-90 tp-footer__tp-border-bottom">
+        <div className="tp-footer__pl-pr grey-bg-2 pt-50">
+          <div className="tp-footer__area pt-90 p-relative tp-footer__tp-border-bottom">
+            <>
+              <div className="tp-footer__shape-1 d-none d-xxl-block">
+                <Image src={shape_img_1} alt="theme-pure" />
+              </div>
+              <div className="tp-footer__shape-2 d-none d-xxl-block">
+                <Image src={shape_img_2} alt="" />
+              </div>
+            </>
             <div className="container">
               <div className="row">
                 <div
