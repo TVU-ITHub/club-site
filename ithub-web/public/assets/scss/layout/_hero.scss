@@ -6,7 +6,13 @@
 
 .tp-hero {
   &__pl-pr {
-    padding-top: 82px;
+    padding-top: 84px;
+    @media #{$md} {
+      padding-top: 45px;
+    }
+    @media #{$xs} {
+      padding-top: 25px;
+    }
   }
   &__bg {
     padding-top: 182px;

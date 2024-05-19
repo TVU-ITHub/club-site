@@ -33,8 +33,8 @@ const hero_content = {
   ],
   hero_title: (
     <>
-      <span className="tp_title">
-        <span className="child" style={{ color: "#fff" }}>
+      <span className="tp_title" style={{ marginBottom: 12, marginTop: 24 }}>
+        <span className="child" style={{ color: "#fff", fontWeight: 900 }}>
           ITHub Club
         </span>
       </span>{" "}
