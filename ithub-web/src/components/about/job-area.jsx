@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const job_data = {
-  sub_title: "Hello World!",
+  sub_title: "Tham gia",
   title: (
     <>
       Team <br />
@@ -12,12 +12,7 @@ const job_data = {
     </>
   ),
   carrer_title: "Open Positions",
-  carrer_info: (
-    <>
-      Borem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque tristique <br />
-      Et amet risus enim accumsan sit purus sit.
-    </>
-  ),
+  carrer_info: <></>,
   job_info: [
     {
       id: 1,

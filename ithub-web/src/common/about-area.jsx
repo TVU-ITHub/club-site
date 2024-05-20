@@ -4,9 +4,9 @@ import React from "react";
 
 // images import
 import about_img_1 from "../../public/assets/img/about/about-bg-shape.png";
-import about_img_2 from "../../public/assets/img/about/about-2.jpg";
-import about_img_3 from "../../public/assets/img/about/about-1.jpg";
-import about_img_4 from "../../public/assets/img/about/about-3.jpg";
+import about_img_2 from "@/app-assets/img/about/chuyennghiep.png";
+import about_img_3 from "@/app-assets/img/about/nhom.png";
+import about_img_4 from "@/app-assets/img/about/sangtao.png";
 import about_img_5 from "../../public/assets/img/about/about-5.png";
 
 // about data
@@ -42,12 +42,7 @@ const about_data = [
 const about_content = {
   title: "Environment",
   sub_title: "Môi trường đậm chất công nghệ",
-  des: (
-    <>
-      Excepteur sint occaecat cupidatat officia non proident <br />
-      sunt in culpa qui deserunt.!
-    </>
-  ),
+  des: <></>,
 
   about_list: [<>Sáng tạo.</>, <>Năng động.</>, <>Chuyên nghiệp.</>, <>Thân thiện.</>],
   btn_text: "Tham gia ngay",
