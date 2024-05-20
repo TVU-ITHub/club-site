@@ -112,14 +112,14 @@ const FooterTwo = () => {
                         {address}
                       </Link>
                       <ul>
-                        <li>
+                        {/* <li>
                           <span>
                             <PhoneTwo />
                           </span>
                           <Link className="first-child" href={`tel:${phone}`}>
                             {phone}
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <span>
                             <EmailTwo />

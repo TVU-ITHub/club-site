@@ -16,9 +16,9 @@ const About = () => {
       <HeroBanner title="About" subtitle="ITHub" bg_img="/app-assets/img/banner/breadcrumb-2.png" />
       <Brand />
       <CompanyArea />
+      <JourneyArea />
       <AboutArea />
       <TeamArea bg_style={true} />
-      <JourneyArea />
       <JobArea />
       <CtaArea />
     </>
