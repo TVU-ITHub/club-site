@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // internal
 import menu_data from "./menu-data";
 
-const MobileMenus = () => {
+const MobileMenus = ({ onClick }) => {
   const [navTitle, setNavTitle] = useState("");
   //openMobileMenu
   const openMobileMenu = (menu) => {
@@ -21,7 +21,9 @@ const MobileMenus = () => {
             <React.Fragment key={i}>
               {menu.has_dropdown && (
                 <li className="has-dropdown">
-                  <Link href={menu.link}>{menu.title}</Link>
+                  <Link href={menu.link} onClick={onClick}>
+                    {menu.title}
+                  </Link>
                   <ul
                     className="submenu"
                     style={{
@@ -30,15 +32,14 @@ const MobileMenus = () => {
                   >
                     {menu.sub_menus.map((sub, i) => (
                       <li key={i}>
-                        <Link href={sub.link}>{sub.title}</Link>
+                        <Link href={sub.link} onClick={onClick}>
+                          {sub.title}
+                        </Link>
                       </li>
                     ))}
                   </ul>
                   <a
-                    className={`mean-expand ${
-                      navTitle === menu.title ? "mean-clicked" : ""
-                    }`}
-                   
+                    className={`mean-expand ${navTitle === menu.title ? "mean-clicked" : ""}`}
                     onClick={() => openMobileMenu(menu.title)}
                     style={{ fontSize: "18px", cursor: "pointer" }}
                   >
@@ -48,7 +49,9 @@ const MobileMenus = () => {
               )}
               {!menu.has_dropdown && (
                 <li>
-                  <Link href={menu.link}>{menu.title}</Link>
+                  <Link href={menu.link} onClick={onClick}>
+                    {menu.title}
+                  </Link>
                 </li>
               )}
             </React.Fragment>
