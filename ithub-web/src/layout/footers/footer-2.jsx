@@ -6,7 +6,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 // img import
 import footer_logo from "@/app-assets/img/logo/ithub-logo2.png";
-import qr_code from "../../../public/assets/img/footer/dwnld-1.png";
+import qr_code from "@/app-assets/img/qr/group-zalo.png";
 import i_phone from "../../../public/assets/img/footer/dwnld-2.png";
 import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
 import shape_img_1 from "@/app-assets/img/logo/ithub-logo-3d.svg";

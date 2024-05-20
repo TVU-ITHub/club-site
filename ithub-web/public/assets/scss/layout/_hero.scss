@@ -15,7 +15,7 @@
     }
   }
   &__bg {
-    padding-top: 182px;
+    padding-top: 135px;
     padding-bottom: 400px;
     border-radius: 30px;
     @media #{$xl,$lg} {
@@ -84,7 +84,7 @@
       & path {
         &.line1 {
           stroke-width: 2.7px;
-          stroke: var(--tp-theme-1);
+          stroke: #fff;
           stroke-dasharray: 2300;
           stroke-dashoffset: 3200;
           animation: dash 2s linear both;
