@@ -83,10 +83,10 @@ const social_links_two = [
   },
 ];
 
-export const SocialLinksTwo = () => {
+export const SocialLinksTwo = ({ social_links }) => {
   return (
     <>
-      {social_links_two.map((link, i) => (
+      {social_links.map((link, i) => (
         <Link key={i} target={link.target} className={`icon-color-${link.color}`} href={link.link}>
           <i className={link.icon}></i>
           <span></span>

@@ -6,10 +6,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 // img import
 import footer_logo from "@/app-assets/img/logo/ithub-logo2.png";
-import qr_code from "../../../public/assets/img/footer/dwnld-1.png";
+import qr_code from "@/app-assets/img/qr/group-zalo.png";
 import i_phone from "../../../public/assets/img/footer/dwnld-2.png";
 import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
-import shape_img_1 from "@/assets/img/footer/footer-inner-1.png";
+import shape_img_1 from "@/app-assets/img/logo/ithub-logo-3d.svg";
 import shape_img_2 from "@/assets/img/footer/footer-inner-2.png";
 
 const footer_content = {
@@ -88,7 +88,7 @@ const FooterTwo = () => {
           <div className="tp-footer__area pt-90 p-relative tp-footer__tp-border-bottom">
             <>
               <div className="tp-footer__shape-1 d-none d-xxl-block">
-                <Image src={shape_img_1} alt="theme-pure" />
+                <Image src={shape_img_1} style={{ width: 120 }} alt="theme-pure" />
               </div>
               <div className="tp-footer__shape-2 d-none d-xxl-block">
                 <Image src={shape_img_2} alt="" />
@@ -112,14 +112,14 @@ const FooterTwo = () => {
                         {address}
                       </Link>
                       <ul>
-                        <li>
+                        {/* <li>
                           <span>
                             <PhoneTwo />
                           </span>
                           <Link className="first-child" href={`tel:${phone}`}>
                             {phone}
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <span>
                             <EmailTwo />
