@@ -718,7 +718,7 @@
   }
 }
 .signin-btn {
-  background-color: var(--tp-common-blue-4);
+  background-color: var(--tp-theme-primary);
   text-align: center;
   height: 55px;
   padding: 0px 100px;
@@ -729,8 +729,8 @@
   font-size: 16px;
   border-radius: 12px;
   &:hover {
-    background-color: rgba(108, 20, 250, 1.875);
-    color: var(--tp-common-white);
+    background-color: rgba(61, 86, 166, 1.875);
+    color: var(--tp-theme-yellow);
   }
 }
 .tp-btn-inner {

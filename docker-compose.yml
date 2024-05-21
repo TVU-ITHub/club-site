@@ -1,0 +1,8 @@
+services:
+  ithub-web:
+    restart: always
+    build:
+      context: ithub-web
+      dockerfile: Dockerfile
+    ports:
+      - "2105:3000"

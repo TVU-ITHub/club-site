@@ -1,7 +1,8 @@
 import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
 import React from "react";
-import CtaArea from "../contact/cta-area";
 import TeamArea from "./team-area";
+import CtaArea from "../contact/cta-area";
+import Developing from "../dev/developing";
 
 const Team = () => {
   return (
@@ -9,8 +10,9 @@ const Team = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title={"Ban chủ nhiệm"} innertitle={"Ban chủ nhiệm"} />
-            <TeamArea sub_title={"Leader Team"} title={"Tâm huyết, sẵn sàng chia sẻ"} />
+            <BreadcrumbTwo title={"Thành viên"} innertitle={"Thành viên"} />
+            <TeamArea sub_title={"Member"} title={"Sáng tạo, Năng động, Chuyên nghiệp"} />
+            <Developing />
             <CtaArea />
           </main>
         </div>

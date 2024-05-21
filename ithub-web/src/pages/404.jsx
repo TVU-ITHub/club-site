@@ -12,7 +12,7 @@ import Image from "next/image";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Oops.! Page Not Found!"} />
+      <SEO pageTitle={"Page Not Found!"} />
       <HeaderFour style_error={true} />
       <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -29,9 +29,9 @@ const index = () => {
                     </div>
                     <div className="tp-error-text-box text-center">
                       <h4 className="error-title-sm">Oops.! Page Not Found!</h4>
-                      <p>The page vou are looking for does not exist'</p>
+                      <p>Trang không tồn tại hoặc đang trong quá trình phát triển!</p>
                       <Link className="tp-btn-inner tp-btn-hover alt-color-black" href="/">
-                        <span> Back To Home</span>
+                        <span>Trở về Trang chủ</span>
                         <b></b>
                       </Link>
                     </div>
@@ -40,7 +40,6 @@ const index = () => {
               </div>
             </div>
           </main>
-          <Footer />
         </div>
       </div>
     </>

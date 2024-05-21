@@ -34,7 +34,7 @@ const TeamArea = ({ bg_style }) => {
                   </div>
                   <div className="col-xl-2 col-lg-2 col-md-2">
                     <div className="tp-team-top-content text-center text-md-end">
-                      <Link className="tp-btn-inner tp-btn-hover alt-color-orange" href="/team-details">
+                      <Link className="tp-btn-inner tp-btn-hover alt-color-orange" href="/leader">
                         <span>Tất cả</span>
                         <b></b>
                       </Link>
@@ -64,7 +64,7 @@ const TeamArea = ({ bg_style }) => {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <Link href="/team-details">{item.name}</Link>
+                      <Link href={"/member/leader-" + item.id}>{item.name}</Link>
                     </h4>
                     <span>{item.job_title}</span>
                   </div>

@@ -43,9 +43,8 @@ const footer_content = {
       delay: ".5s",
       links: [
         { name: "Giới thiệu", link: "/about" },
-        { name: "Sự kiện", link: "/service" },
-        { name: "Liên hệ", link: "#" },
-        { name: "", link: "/price" },
+        { name: "Sự kiện", link: "/event" },
+        { name: "Liên hệ", link: "/contact" },
         { name: "Thông tin sinh viên", link: "https://ttsv.tvu.edu.vn/", target: "_blank" },
         { name: "Trường ĐH Trà Vinh", link: "https://tvu.edu.vn/", target: "_blank" },
       ],
@@ -120,12 +119,12 @@ const FooterTwo = () => {
                             {phone}
                           </Link>
                         </li> */}
-                        <li>
+                        {/* <li>
                           <span>
                             <EmailTwo />
                           </span>
                           <Link href={`mailto:${email}`}>{email}</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

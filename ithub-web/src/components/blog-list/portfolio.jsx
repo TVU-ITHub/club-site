@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <div className="tp-blog-item">
                   <div className="tp-blog-thumb fix">
                     <Link href="/blog-details">
-                      <Image src={item.thumb_img} alt="theme-pure" />
+                      <img src={item.thumb_img} alt="theme-pure" />
                     </Link>
                   </div>
                   <div className="tp-blog-content">
@@ -42,7 +42,11 @@ const Portfolio = () => {
                     </div>
                     <div className="tp-blog-author-info-box d-flex align-items-center">
                       <div className="tp-blog-avata">
-                        <Image src={item.avata_img} alt="theme-pure" />
+                        <img
+                          src={item.avata_img}
+                          style={{ width: 40, height: 40, borderRadius: 100 }}
+                          alt="theme-pure"
+                        />
                       </div>
                       <div className="tp-blog-author-info">
                         <h5>{item.name}</h5>

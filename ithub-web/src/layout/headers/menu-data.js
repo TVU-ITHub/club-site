@@ -21,7 +21,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Thành viên",
-    link: "/project",
+    link: "/member",
     active: "",
     sub_menus: [
       { link: "/leader", title: "Ban chủ nhiệm" },
@@ -33,16 +33,11 @@ const menu_data = [
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Sự kiện",
-    link: "/blog",
+    link: "/event",
     active: "",
-    sub_menus: [
-      { link: "/blog", title: "Blog" },
-      { link: "/blog-list", title: "Blog List" },
-      { link: "/blog-details", title: "Blog Details" },
-      { link: "/blog-details-2", title: "Blog Details 02" },
-    ],
+    sub_menus: [],
   },
 
   {
