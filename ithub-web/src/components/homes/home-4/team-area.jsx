@@ -64,7 +64,7 @@ const TeamArea = ({ bg_style }) => {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <Link href="/team-details">{item.name}</Link>
+                      <Link href={"/member/leader-" + item.id}>{item.name}</Link>
                     </h4>
                     <span>{item.job_title}</span>
                   </div>

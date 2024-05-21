@@ -5,10 +5,10 @@ import MobileMenus from "../layout/headers/mobile-menus";
 
 // images import
 import logo from "@/app-assets/img/logo/ithub-logo2-trang.svg";
-import canvus_img_1 from "../../public/assets/img/project/project-inner-4.jpg";
-import canvus_img_2 from "../../public/assets/img/project/project-inner-5.jpg";
-import canvus_img_3 from "../../public/assets/img/project/project-inner-6.jpg";
-import canvus_img_4 from "../../public/assets/img/project/project-inner-7.jpg";
+import canvus_img_1 from "@/app-assets/img/team/team-1.png";
+import canvus_img_2 from "@/app-assets/img/team/team-2.png";
+import canvus_img_3 from "@/app-assets/img/team/team-3.png";
+import canvus_img_4 from "@/app-assets/img/team/team-4.png";
 
 const Offcanvus = ({ sidebarOpen, setSidebarOpen }) => {
   return (

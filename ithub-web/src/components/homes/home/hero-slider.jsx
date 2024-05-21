@@ -128,10 +128,10 @@ const HeroSlider = () => {
                     </div>
                   </div>
                   <div className="tp-hero__input p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                    <HeroForm />
+                    {/* <HeroForm /> */}
                   </div>
                   <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                    {sub_title}
+                    {/* {sub_title} */}
                   </p>
                 </div>
               </div>

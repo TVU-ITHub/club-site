@@ -3,14 +3,7 @@ import React from "react";
 const GoogleIcon = () => {
   return (
     <>
-      <svg
-        className="mr-10"
-        width="23"
-        height="23"
-        viewBox="0 0 23 23"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M21.5642 11.7235C21.5642 10.8961 21.4957 10.2924 21.3474 9.66626H11.707V13.4005H17.3657C17.2517 14.3285 16.6356 15.7261 15.2665 16.6652L15.2473 16.7902L18.2954 19.1044L18.5066 19.125C20.4461 17.3696 21.5642 14.7869 21.5642 11.7235"
           fill="#4285F4"
