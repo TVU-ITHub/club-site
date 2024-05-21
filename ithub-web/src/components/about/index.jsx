@@ -1,6 +1,4 @@
 import AboutArea from "@/common/about-area";
-import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import Breadcrumb from "../../common/breadcrumbs/breadcrumb";
 import HeroBanner from "../../common/hero-banner";
@@ -10,21 +8,19 @@ import Brand from "./brand";
 import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
-import HeaderFour from "@/layout/headers/header-4";
 
 const About = () => {
   return (
     <>
-      <Breadcrumb title_top="About" title_bottom="Softec" />
-      <HeroBanner title="About" subtitle="Softec" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
+      <Breadcrumb title_top="About" title_bottom="ITHub" />
+      <HeroBanner title="About" subtitle="ITHub" bg_img="/app-assets/img/banner/breadcrumb-2.png" />
       <Brand />
       <CompanyArea />
+      <JourneyArea />
       <AboutArea />
       <TeamArea bg_style={true} />
-      <JourneyArea />
       <JobArea />
       <CtaArea />
-      {/* <FooterFive style_contact={true} style_team={true} /> */}
     </>
   );
 };

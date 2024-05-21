@@ -10,10 +10,10 @@ import shape_1 from "../../../../public/assets/img/hero/hero-line-shape.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-line-shape-2.png";
 import shape_img_1 from "../../../../public/assets/img/hero/hero-shape-1.png";
 import shape_img_2 from "../../../../public/assets/img/hero/hero-shape-2.png";
-import hero_thumb_1 from "../../../../public/assets/img/hero/hero-sm-1.jpg";
+import hero_thumb_1 from "@/app-assets/img/banner/ithub-3d.png";
 import thumb_1 from "../../../../public/assets/img/hero/hero-sm-3.png";
-import thumb_2 from "../../../../public/assets/img/hero/hero-sm-4.jpg";
-import hero_thumb_2 from "../../../../public/assets/img/hero/hero-sm-2.jpg";
+import thumb_2 from "@/app-assets/img/banner/breadcrumb-3.png";
+import hero_thumb_2 from "@/app-assets/img/banner/breadcrumb-4.jpg";
 import HeroForm from "@/forms/hero-form";
 import LineShape from "@/svg/line-shape";
 
@@ -33,14 +33,14 @@ const hero_content = {
   ],
   hero_title: (
     <>
-      <span className="tp_title">
-        <span className="child" style={{ color: "#fff" }}>
-          The Leading Customer
+      <span className="tp_title" style={{ marginBottom: 12, marginTop: 24 }}>
+        <span className="child" style={{ color: "#fff", fontWeight: 900 }}>
+          ITHub Club
         </span>
       </span>{" "}
       <br />
       <span>
-        <span className="child" style={{ color: "#F78F32" }}>
+        <span className="child" style={{ color: "var(--tp-theme-yellow)" }}>
           Software & Technology
         </span>
       </span>{" "}

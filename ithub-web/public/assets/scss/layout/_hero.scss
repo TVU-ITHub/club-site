@@ -6,10 +6,16 @@
 
 .tp-hero {
   &__pl-pr {
-    padding-top: 82px;
+    padding-top: 84px;
+    @media #{$md} {
+      padding-top: 45px;
+    }
+    @media #{$xs} {
+      padding-top: 25px;
+    }
   }
   &__bg {
-    padding-top: 182px;
+    padding-top: 135px;
     padding-bottom: 400px;
     border-radius: 30px;
     @media #{$xl,$lg} {
@@ -78,7 +84,7 @@
       & path {
         &.line1 {
           stroke-width: 2.7px;
-          stroke: var(--tp-theme-1);
+          stroke: #fff;
           stroke-dasharray: 2300;
           stroke-dashoffset: 3200;
           animation: dash 2s linear both;
@@ -1144,7 +1150,7 @@
   left: 0;
   right: 0;
   top: 0;
-  background: radial-gradient(59.04% 59.04% at 50% 40.96%, #3b82f6 0%, rgba(96, 165, 250, 0.85) 100%);
+  background: radial-gradient(0% 0% at 90% 90%, var(--tp-theme-primary) 0%, rgba(61, 86, 166, 0.95) 100%);
 
   opacity: 0.9;
   border-radius: 30px;

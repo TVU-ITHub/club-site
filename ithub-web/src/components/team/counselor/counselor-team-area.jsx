@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { SocialLinksTwo } from "@/common/social-links";
-import team_data from "@/data/team-data";
+import { counselor_team_data } from "@/data/team-data";
 
-const TeamArea = ({ sub_title, title }) => {
+const CounselorTeamArea = ({ sub_title, title }) => {
   return (
     <>
       <div className="tp-team-area tp-team-inner pt-100 pb-75">
@@ -19,7 +19,7 @@ const TeamArea = ({ sub_title, title }) => {
             </div>
           </div>
           <div className="row">
-            {team_data.map((item, i) => (
+            {counselor_team_data.map((item, i) => (
               <div
                 key={"team-" + i}
                 className={`col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-70 tp-border-after-${item.cls} team-inner-border-right`}
@@ -47,4 +47,4 @@ const TeamArea = ({ sub_title, title }) => {
   );
 };
 
-export default TeamArea;
+export default CounselorTeamArea;

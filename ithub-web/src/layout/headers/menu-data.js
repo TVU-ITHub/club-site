@@ -24,9 +24,9 @@ const menu_data = [
     link: "/project",
     active: "",
     sub_menus: [
-      { link: "/project", title: "Ban chủ nhiệm" },
-      { link: "/project-details", title: "Ban cố vấn" },
-      { link: "/project-details", title: "Thành viên" },
+      { link: "/leader", title: "Ban chủ nhiệm" },
+      { link: "/counselor", title: "Ban cố vấn" },
+      { link: "/member", title: "Thành viên" },
     ],
   },
 
