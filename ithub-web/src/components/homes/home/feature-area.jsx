@@ -87,7 +87,7 @@ const FeatureArea = () => {
                   </h3>
                   <p>{item.sub_title}</p>
                   <div className="tp-feature__link tp-common-btn">
-                    <Link href="/service-details">
+                    <Link href="#">
                       <RightArrow />
                     </Link>
                   </div>
