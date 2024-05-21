@@ -1,8 +1,3 @@
-import team_img_5 from "../../public/assets/img/team/team-4-5.png";
-import team_img_6 from "../../public/assets/img/team/team-4-6.png";
-import team_img_7 from "../../public/assets/img/team/team-4-7.png";
-import team_img_8 from "../../public/assets/img/team/team-4-8.png";
-
 const team_data = [
   // for home 04
   {
@@ -271,5 +266,7 @@ const counselor_team_data = [
   },
 ];
 
+const member = [];
+
 export default team_data;
-export { counselor_team_data };
+export { counselor_team_data, member };

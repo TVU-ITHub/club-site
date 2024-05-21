@@ -53,7 +53,7 @@ const HeaderFour = ({ style_error = true, white_header = true }) => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                 <div className="header-bottom__right d-flex align-items-center justify-content-end">
                   <div className={`header-bottom__action ${style_error ? "" : "header-bottom__action-4"}`}>
-                    <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/dang-nhap">
+                    <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/sign-in">
                       <span>Đăng nhập</span>
                     </Link>
                   </div>
@@ -62,7 +62,7 @@ const HeaderFour = ({ style_error = true, white_header = true }) => {
                       className={`tp-btn-blue-sm ${
                         style_error ? "inner-color alt-color-black" : "alt-color-white"
                       } tp-btn-hover d-none d-md-inline-block`}
-                      href="/dang-ky"
+                      href="/register"
                     >
                       <span>Đăng ký</span>
                       <b></b>

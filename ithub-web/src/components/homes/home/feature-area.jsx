@@ -46,7 +46,7 @@ const feature_data = [
 // feature content
 const feature_content = {
   title: "ITHub Teams",
-  sub_title: "More than 15,000 companies trust and choose Itech",
+  sub_title: "",
 };
 const { title, sub_title } = feature_content;
 

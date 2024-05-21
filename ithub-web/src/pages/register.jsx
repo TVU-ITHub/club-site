@@ -1,15 +1,18 @@
 import React from "react";
 import SEO from "../common/seo";
+import Register from "../components/register";
 import Wrapper from "../layout/wrapper";
-import LeaderTeam from "@/components/team/leader";
+import EmptyLayout from "@/layout/empty-layout";
 
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Ban chủ nhiệm"} />
-      <LeaderTeam />
+      <SEO pageTitle={"Đăng ký"} />
+      <Register />
     </Wrapper>
   );
 };
+
+index.Layout = EmptyLayout;
 
 export default index;
