@@ -4,6 +4,5 @@ services:
     build:
       context: ithub-web
       dockerfile: Dockerfile
-    volumes:
     ports:
       - "2105:3000"
