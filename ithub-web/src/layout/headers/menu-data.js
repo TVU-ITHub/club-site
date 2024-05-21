@@ -21,7 +21,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Thành viên",
-    link: "/project",
+    link: "/member",
     active: "",
     sub_menus: [
       { link: "/leader", title: "Ban chủ nhiệm" },
