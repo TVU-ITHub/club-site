@@ -1,33 +1,33 @@
-@use '../utils' as *;
+@use "../utils" as *;
 
 /*---------------------------------------*/
 /*Background color
 /*-----------------------------------------*/
 
 .grey-bg {
-	background: var(--tp-grey-7);
+  background: var(--tp-grey-7);
 }
 .grey-bg-2 {
-	background: var(--tp-grey-6);
+  background: var(--tp-grey-6);
 }
 .grey-bg-3 {
-	background: var(--tp-grey-8);
+  background: var(--tp-grey-8);
 }
 .white-bg {
-	background: var(--tp-common-white);
+  background: var(--tp-common-white);
 }
 .black-bg {
-	background: var(--tp-common-black);
+  background: var(--tp-common-black);
 }
 .theme-bg {
-	background: var(--tp-theme-1);
+  background: var(--tp-theme-1);
 }
 .theme-bg-3 {
-	background: var(--tp-theme-3);
+  background: var(--tp-theme-3);
 }
-.blue-bg{
-	background:var(--tp-common-blue-2);
+.blue-bg {
+  background: var(--tp-common-blue-2);
 }
-.blue-bg-2{
-	background:var(--tp-common-blue-4);
+.blue-bg-2 {
+  background: var(--tp-theme-primary);
 }

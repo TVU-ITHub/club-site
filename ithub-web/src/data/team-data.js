@@ -186,29 +186,10 @@ const team_data = [
     job_title: "Trưởng nhóm",
     social_links: [
       {
-        link: "http://facebook.com",
+        link: "https://www.facebook.com/zen.phat.7",
         target: "_blank",
         icon: "fab fa-facebook-f",
         color: "1",
-      },
-      {
-        link: "https://www.instagram.com",
-        target: "_blank",
-        icon: "fab fa-instagram",
-        color: "2",
-      },
-
-      {
-        link: "http://twitter.com",
-        target: "_blank",
-        icon: "fab fa-twitter",
-        color: "3",
-      },
-      {
-        link: "https://www.linkedin.com",
-        target: "_blank",
-        icon: "fab fa-linkedin-in",
-        color: "4",
       },
     ],
   },
@@ -229,4 +210,91 @@ const team_data = [
   },
 ];
 
+const counselor_team_data = [
+  {
+    id: 1,
+    cls: 1,
+    img: "https://ithub-img.vhiep.com/van-khanh.png",
+    name: "Dương Ngọc Vân Khanh",
+    job_title: "Giảng viên",
+    social_links: [
+      // {
+      //   link: "https://www.facebook.com/baoanth",
+      //   target: "_blank",
+      //   icon: "fab fa-facebook-f",
+      //   color: "1",
+      // },
+      // {
+      //   link: "https://github.com/baoanth",
+      //   target: "_blank",
+      //   icon: "fab fa-github",
+      //   color: "5",
+      // },
+    ],
+  },
+  {
+    id: 2,
+    cls: 2,
+    img: "https://ithub-img.vhiep.com/dan-thanh.png",
+    name: "Nguyễn Ngọc Đan Thanh",
+    job_title: "Giảng viên",
+    social_links: [],
+  },
+  {
+    id: 3,
+    cls: 3,
+    img: "https://ithub-img.vhiep.com/truc-mai.png",
+    name: "Phạm Thị Trúc Mai",
+    job_title: "Giảng viên",
+    social_links: [
+      // {
+      //   link: "https://www.facebook.com/dnmanhh",
+      //   target: "_blank",
+      //   icon: "fab fa-facebook-f",
+      //   color: "1",
+      // },
+      // {
+      //   link: "https://github.com/ddnmanh",
+      //   target: "_blank",
+      //   icon: "fab fa-github",
+      //   color: "5",
+      // },
+      // {
+      //   link: "mailto:nguyenducmanhsttvu@gmail.com",
+      //   target: "_blank",
+      //   icon: "fa fa-envelope",
+      //   color: "6",
+      // },
+    ],
+  },
+  {
+    id: 4,
+    cls: 4,
+    img: "https://ithub-img.vhiep.com/kaka.png",
+    name: "Cao Ka Ka",
+    job_title: "Sinh viên khóa 20",
+    social_links: [
+      // {
+      //   link: "https://facebook.com/tanmai2003",
+      //   target: "_blank",
+      //   icon: "fab fa-facebook-f",
+      //   color: "1",
+      // },
+      // {
+      //   link: "https://github.com/tanmaiii",
+      //   target: "_blank",
+      //   icon: "fab fa-github",
+      //   color: "5",
+      // },
+      // {
+      //   link: "mailto:dinhtanmaivn@gmail.com",
+      //   target: "_blank",
+      //   icon: "fa fa-envelope",
+      //   color: "6",
+      // },
+    ],
+  },
+];
+
 export default team_data;
+export { counselor_team_data };
