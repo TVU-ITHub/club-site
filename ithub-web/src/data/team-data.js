@@ -1,6 +1,3 @@
-import team_img_1 from "../../public/assets/img/team/team-4-1.png";
-import team_img_3 from "../../public/assets/img/team/team-4-3.png";
-import team_img_4 from "../../public/assets/img/team/team-4-4.png";
 import team_img_5 from "../../public/assets/img/team/team-4-5.png";
 import team_img_6 from "../../public/assets/img/team/team-4-6.png";
 import team_img_7 from "../../public/assets/img/team/team-4-7.png";
@@ -70,7 +67,7 @@ const team_data = [
         color: "1",
       },
       {
-        link: " https://github.com/ddnmanh",
+        link: "https://github.com/ddnmanh",
         target: "_blank",
         icon: "fab fa-github",
         color: "5",
@@ -114,75 +111,56 @@ const team_data = [
   {
     id: 5,
     cls: 1,
-    img: team_img_5,
+    img: "https://ithub-img.vhiep.com/loc.png",
     name: "Phạm Hữu Lộc",
     job_title: "Trưởng nhóm",
     social_links: [
       {
-        link: "http://facebook.com",
+        link: "https://www.facebook.com/phamhuuloc2003",
         target: "_blank",
         icon: "fab fa-facebook-f",
         color: "1",
       },
       {
-        link: "https://www.instagram.com",
+        link: "https://www.instagram.com/phamhuuloc2003",
         target: "_blank",
         icon: "fab fa-instagram",
         color: "2",
       },
 
       {
-        link: "http://twitter.com",
+        link: "https://github.com/phamhuulocforwork",
         target: "_blank",
-        icon: "fab fa-twitter",
-        color: "3",
-      },
-      {
-        link: "https://www.linkedin.com",
-        target: "_blank",
-        icon: "fab fa-linkedin-in",
-        color: "4",
+        icon: "fab fa-github",
+        color: "5",
       },
     ],
   },
   {
     id: 6,
     cls: 2,
-    img: team_img_6,
+    img: "https://ithub-img.vhiep.com/hue-trung.png",
     name: "Lâm Huệ Trung",
     job_title: "Trưởng nhóm",
     social_links: [
       {
-        link: "http://facebook.com",
+        link: "https://www.facebook.com/namphong.lam.12",
         target: "_blank",
         icon: "fab fa-facebook-f",
         color: "1",
       },
       {
-        link: "https://www.instagram.com",
+        link: "https://github.com/LamHueTrung",
         target: "_blank",
-        icon: "fab fa-instagram",
-        color: "2",
-      },
-
-      {
-        link: "http://twitter.com",
-        target: "_blank",
-        icon: "fab fa-twitter",
-        color: "3",
-      },
-      {
-        link: "https://www.linkedin.com",
-        target: "_blank",
-        icon: "fab fa-linkedin-in",
-        color: "4",
+        icon: "fab fa-github",
+        color: "5",
       },
     ],
   },
   {
     id: 7,
     cls: 3,
-    img: team_img_7,
+    img: "https://ithub-img.vhiep.com/hoang-hung.png",
     name: "Trường Hoàng Hưng",
     job_title: "Trưởng nhóm",
     social_links: [
@@ -203,7 +181,7 @@ const team_data = [
   {
     id: 8,
     cls: 4,
-    img: team_img_8,
+    img: "https://ithub-img.vhiep.com/tan-phat.png",
     name: "Võ Tấn Phát",
     job_title: "Trưởng nhóm",
     social_links: [
@@ -231,6 +209,21 @@ const team_data = [
         target: "_blank",
         icon: "fab fa-linkedin-in",
         color: "4",
+      },
+    ],
+  },
+  {
+    id: 9,
+    cls: 4,
+    img: "https://ithub-img.vhiep.com/xuyen.png",
+    name: "Lê Thị Nguyễn Xuyên",
+    job_title: "Thư ký",
+    social_links: [
+      {
+        link: "https://www.facebook.com/profile.php?id=100034348579919",
+        target: "_blank",
+        icon: "fab fa-facebook-f",
+        color: "1",
       },
     ],
   },

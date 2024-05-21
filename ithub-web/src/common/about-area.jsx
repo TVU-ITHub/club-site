@@ -44,7 +44,7 @@ const about_content = {
   sub_title: "Môi trường đậm chất công nghệ",
   des: <></>,
 
-  about_list: [<>Sáng tạo.</>, <>Năng động.</>, <>Chuyên nghiệp.</>, <>Thân thiện.</>],
+  about_list: [<>Sáng tạo</>, <>Năng động</>, <>Thân thiện</>, <>Chuyên nghiệp</>],
   btn_text: "Tham gia ngay",
 };
 const { title, sub_title, des, about_list, btn_text } = about_content;

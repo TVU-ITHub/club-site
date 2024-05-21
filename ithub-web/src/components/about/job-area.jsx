@@ -8,7 +8,7 @@ const job_data = {
   title: (
     <>
       Team <br />
-      chuyên môn.
+      chuyên môn
     </>
   ),
   carrer_title: "Open Positions",
