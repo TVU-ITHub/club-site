@@ -52,9 +52,9 @@ const Offcanvus = ({ sidebarOpen, setSidebarOpen }) => {
               <br /> khóm 4, phường 5, <br />
               TP. Trà Vinh, tỉnh Trà Vinh <br /> <br />
             </Link>
-            <Link href="mailto:contact@ithub.club" target="_blank">
+            {/* <Link href="mailto:contact@ithub.club" target="_blank">
               contact@ithub.club
-            </Link>
+            </Link> */}
           </div>
           <div className="tpoffcanvas__social">
             <div className="social-icon text-center">
