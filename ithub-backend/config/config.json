@@ -5,7 +5,12 @@
     "database": "ithub_db",
     "host": "localhost",
     "dialect": "mysql",
-    "port": 3306
+    "port": 3306,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "paranoid": true
+    }
   },
   "test": {
     "username": "root",
@@ -13,7 +18,12 @@
     "database": "ithub_db",
     "host": "localhost",
     "dialect": "mysql",
-    "port": 3306
+    "port": 3306,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "paranoid": true
+    }
   },
   "production": {
     "username": "root",
@@ -21,6 +31,11 @@
     "database": "ithub_db",
     "host": "localhost",
     "dialect": "mysql",
-    "port": 3306
+    "port": 3306,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "paranoid": true
+    }
   }
 }
