@@ -80,7 +80,7 @@ const team_data = [
     cls: 4,
     img: "https://ithub-img.vhiep.com/mai.png",
     name: "Đinh Tấn Mãi",
-    job_title: "Leader team Fast Track",
+    job_title: "Trưởng nhóm",
     social_links: [
       {
         link: "https://facebook.com/tanmai2003",
@@ -108,7 +108,7 @@ const team_data = [
     cls: 1,
     img: "https://ithub-img.vhiep.com/loc.png",
     name: "Phạm Hữu Lộc",
-    job_title: "Leader team Frontend",
+    job_title: "Trưởng nhóm",
     social_links: [
       {
         link: "https://www.facebook.com/phamhuuloc2003",
@@ -136,7 +136,7 @@ const team_data = [
     cls: 2,
     img: "https://ithub-img.vhiep.com/hue-trung.png",
     name: "Lâm Huệ Trung",
-    job_title: "Ủy viên",
+    job_title: "Trưởng nhóm",
     social_links: [
       {
         link: "https://www.facebook.com/namphong.lam.12",
@@ -157,7 +157,7 @@ const team_data = [
     cls: 3,
     img: "https://ithub-img.vhiep.com/hoang-hung.png",
     name: "Trường Hoàng Hưng",
-    job_title: "Leader team Enterprise",
+    job_title: "Trưởng nhóm",
     social_links: [
       {
         link: "https://www.facebook.com/hoanghung03?mibextid=LQQJ4d",
@@ -178,7 +178,7 @@ const team_data = [
     cls: 4,
     img: "https://ithub-img.vhiep.com/tan-phat.png",
     name: "Võ Tấn Phát",
-    job_title: "Leader team Novice",
+    job_title: "Trưởng nhóm",
     social_links: [
       {
         link: "https://www.facebook.com/zen.phat.7",
